@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/style.css">
+  <title>RecipEase</title>
+</head>
+
+<body>
+  <header>
+    <h1>RecipEase</h1>
+    <p>Your Personalized Recipe Companion</p>
+  </header>
+
+  <section id="search">
+    <h2>Discover Delicious Recipes</h2>
+    <div>
+      <input type="text" id="recipeSearch" placeholder="Search for Recipes">
+      <button id="searchButton">Search</button>
+    </div>
+  </section>
+
+  <section id="drk-search">
+    <h2>Search Cocktails Recipies</h2>
+    <div>
+      <input type="text" id="drink-input" placeholder="Search for Cocktails">
+      <button id="searchButtonDrinks">Search</button>   
+</div>
+</section>
+
+
+<div class="result-cards">
+ <!-- Container for dynamically generated recipe cards -->
+ <div class="inner-result-card" >
+ <div id="recipeList"></div>
+  <div id="recipeDetails"></div>
+ </div>
+
+<!-- Container dynamically generated drink recipies -->
+<div class="inner-result-card" >
+<div id="drinkList"></div>
+<div id="drinkDetails"></div>
+<div>
+</div>
+
+
+<script src="./assets/script.js"></script>
+</body>
+</html>
